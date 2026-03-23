@@ -1,0 +1,11 @@
+{
+  "installCommand": "cd refugeelink && npm install",
+  "buildCommand": "cd refugeelink && npm run build",
+  "outputDirectory": "refugeelink/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
