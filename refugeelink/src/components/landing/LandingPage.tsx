@@ -16,6 +16,7 @@ import {
   Zap,
 } from 'lucide-react';
 import LanguageSwitcher from '../layout/LanguageSwitcher';
+import VercelDeployBanner from '../common/VercelDeployBanner';
 import './LandingPage.css';
 
 export default function LandingPage() {
@@ -265,6 +266,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
+      <VercelDeployBanner />
       <footer className="landing-footer">
         <div className="landing-footer-inner container">
           <div className="footer-left">
